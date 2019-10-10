@@ -14,4 +14,5 @@
     <string name="title_activity_cadastro">Cadastro de Usuario</string>
     <string name="action_reclamacaos">Ver Reclamações</string>
     <string name="action_logout">sair</string>
+    <string name="title_activity_contatos">ContatosActivity</string>
 </resources>

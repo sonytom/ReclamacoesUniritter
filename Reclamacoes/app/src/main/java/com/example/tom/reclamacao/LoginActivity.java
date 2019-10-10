@@ -80,4 +80,11 @@ public class LoginActivity extends AppCompatActivity {
         startActivity(i);
         finish();
     }
+
+    public void btnnovo(View view) {
+        Intent i = new Intent(this, ContatoActivity.class);
+        startActivity(i);
+        finish();
+    }
+
 }

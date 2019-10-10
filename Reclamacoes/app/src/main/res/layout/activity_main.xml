@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tom.reclamacao.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imghis"
+        android:layout_width="187dp"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="9dp"
+android:layout_centerInParent="true"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/logo_uniritter" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="469dp"
+        android:layout_alignTop="@id/imghis"
+        android:layout_centerVertical="true"
+
+        android:layout_marginTop="81dp"
+
+
+        android:text="A UniRitter - integrante da rede global líder em ensino superior Laureate International Universities - é uma das mais tradicionais instituições de ensino superior de Porto Alegre. Com 47 anos de mercado, possui 37 cursos de graduação e mais de 30 especializações nos campi: Canoas, FAPA, Zona Sul e Iguatemi. A instituição de ensino tem como missão levar a educação de qualidade para um número cada vez maior de alunos e, assim, formar profissionais qualificados e éticos para atuar no mercado. Recentemente, a UniRitter
+recebeu a pontuação máxima (nota 5) do Ministério da Educação (MEC) em relação à avaliação de Recredenciamento Institucional." />
+
+    <Button
+        android:id="@+id/btnvoltar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:layout_alignBottom="@id/textView4"
+        android:layout_centerInParent="true"
+        android:onClick="voltar2"
+        />
+
+
+</RelativeLayout>

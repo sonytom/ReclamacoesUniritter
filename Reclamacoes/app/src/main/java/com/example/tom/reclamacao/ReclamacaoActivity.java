@@ -77,5 +77,9 @@ public class ReclamacaoActivity extends AppCompatActivity {
             Toast.makeText(ReclamacaoActivity.this, "Voce nao Digitou Nenhum Pedido", Toast.LENGTH_LONG).show();
         }
     }
-
+    public void ircursos(View view) {
+        Intent i = new Intent(this, MainActivity.class);
+        startActivity(i);
+        finish();
+    }
 }
